@@ -17,7 +17,7 @@ _Como he accedido a las cookies_
 ```
 document.cookie
 ```
-He accedido directamente a cookie para darle un valor. En este caso solo he usado nombre de usuario, pero en proyectos reales nos darían mas tipos de valores. También esepcificar el "path" y el "expire" de las cookies.
+He accedido directamente a cookie para darle un valor. En este caso solo he usado nombre de usuario, pero en proyectos reales nos darían mas tipos de valores. También especificar el "path" y el "expire" de las cookies según nos convenga.
 
 ### Maquetación y estilos
 
