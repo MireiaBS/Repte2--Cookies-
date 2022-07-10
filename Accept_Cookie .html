@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/css.css" rel="stylesheet">
+    <title>Accept Cookies!</title>
+</head>
+
+<body class="image">
+    <main>
+        <div class="modal-container" id="modal">
+            <div class="modal">
+                <div class="modal-close"> 
+                    <input type="button" class="close-modal" value="X" onclick="closeModal()">
+                </div>
+                <div class="modal-text">
+                    <img class="image-cookie" src="./images/cookie.png">
+                    <h3> Have a Cookie</h3>
+                    <p class="centered">This website uses cookies to ensure you get the best experience on our website
+                    </p>
+                    <p>
+                        <input type="button" class="button-yes" value="Understood, Yum" onclick="acceptCookies()">
+                        <a class="button-Learn" href="https://support.mozilla.org/es/kb/cookies">Learn more</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="text">
+            <h2>¡Segundo reto de NUWE!</h2>
+            <p>Uso de Cookies y como guardarlas.</p>
+            <input type="button" class="button-yes" value="Borrar cookies!" onclick="cleanCookies()">
+        </div>
+    </main>
+
+
+
+    <script src="./index.js" type=""></script>
+</body>
+
+</html>

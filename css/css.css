@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 100%;
+    background-image: url("../images/2.jpg");
+}
+
+h2 {
+    color: rgb(45, 161, 122);
+}
+
+h3 {
+    color: rgb(183, 114, 53);
+}
+
+.centered {
+    margin-top: -5px;
+    text-align: center;
+}
+
+.modal {
+    margin-top: 2cm;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(149, 150, 150);
+    border-radius: 15px;
+    width: 6cm;
+    min-height: max-content;
+    padding: 0.5cm;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 50;
+}
+
+.modal-container {
+    display: flex;   
+    justify-content: center;
+}
+
+.modal-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-close {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.button-yes {
+    padding: 7px;
+    color: aliceblue;
+    background-color: rgb(227, 147, 72);
+    border: none;
+    border-radius: 5px;
+}
+
+.button-Learn {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(227, 147, 72);
+    background-color: white;
+    text-decoration: underline;
+}
+
+.close-modal {
+    background-color: white;
+    color: rgb(227, 190, 154);
+    border: none;
+}
+.text {
+    font-weight:500 ;
+    margin: 2cm;
+    background-color: rgb(250, 233, 200);
+    width: max-content;
+    padding: 1cm;
+    border-radius: 8px;
+}
